@@ -1,0 +1,25 @@
+<body>
+    <div class="container">
+        <h1 class="mb-4 text-center">Blog Articles</h1>
+        <a routerLink="add" class="btn btn-success ml-5">New Article</a>
+
+        <ul *ngFor="let article of articles">
+            <div class="card mt-4" style="background-color:transparent;border:solid 2px white">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        {{article.title}}
+                    </h4>
+                    <div class="card-subtitle mb-2">
+                        <small>{{article.createdAt | date : 'fullDate' }}</small>
+                    </div>
+                    <div class="card-text mb-4">
+                        <strong>Category : </strong> {{article.category}}
+                    </div>
+                    <a routerLink="/display/{{article._id}}" class="btn btn-info">Read More</a>&nbsp;&nbsp;
+                    <a routerLink="/edit/{{article._id}}" class="btn btn-primary">Edit</a>&nbsp;&nbsp;
+                    <button (click)="deleteArticle(article._id)" class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+        </ul>
+    </div>
+</body>

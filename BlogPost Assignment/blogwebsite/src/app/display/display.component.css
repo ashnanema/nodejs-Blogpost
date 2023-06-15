@@ -1,0 +1,25 @@
+
+h2{
+    padding:30px;
+    color:white;
+    text-shadow: -1px 0 0 #000000, 1px 1px 0 #000000,
+             2px -1px 0 #000000, 3px 0 0 #000000;
+             font-size: 50px;
+             font-family:cursive;
+             
+             
+}
+
+div,h4{
+    color:black;
+    padding: 30px;
+    font-family:cursive;
+    font-size :20px;
+}
+
+small{
+    font-family:cursive
+}
+
+
+

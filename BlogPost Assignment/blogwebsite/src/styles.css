@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", "cursive";
+    background-image: url('https://images.pexels.com/photos/6576268/pexels-photo-6576268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center; 
+    
+}

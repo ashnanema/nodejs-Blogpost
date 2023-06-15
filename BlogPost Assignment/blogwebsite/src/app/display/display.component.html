@@ -1,0 +1,23 @@
+<body>
+    <div class="container text-center">
+        <h4 class="text-right mr-4">
+            <strong>Created : </strong><small>{{article.createdAt | date : 'fullDate'}}</small>
+        </h4>
+        <h2>
+            {{article.title}}
+        </h2>
+
+        <div style="padding:10px">
+            <strong>Category : </strong> {{article.category}}
+        </div>
+        <div style="padding:10px " style="background-color: lightgrey;">
+            {{article.description}}
+        </div>
+
+        <a routerLink="/edit/{{article._id}}" class="btn btn-primary mb-4 mr-4 mt-4 ">Edit</a>
+        <button (click)="deleteArticle(article._id)" class="btn btn-danger mb-4 mr-4 mt-4">Delete</button>
+        <a href="/" class="btn btn-secondary mb-4 mr-4 mt-4">All Articles</a>
+
+
+    </div>
+</body>

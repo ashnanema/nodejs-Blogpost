@@ -1,0 +1,33 @@
+
+.ml4{
+    margin-left: 10px;
+}
+
+strong{
+    font-family:cursive;
+    font-size:20px;
+    
+  }
+
+  h4{
+    font-family:cursive;
+    font-size:30px;
+
+  }
+
+  a,button{
+    font-family:cursive;
+    font-size:15px;
+    
+  }
+  
+  h1{
+    padding:30px;
+    color:crimson;
+    text-shadow: -1px 0 0 #000000, 1px 1px 0 #000000,
+             2px -1px 0 #000000, 3px 0 0 #000000;
+             font-size: 50px;
+             font-family:cursive;
+                   
+  }
+  
